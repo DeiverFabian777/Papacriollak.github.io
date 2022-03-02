@@ -165,7 +165,6 @@ function onCapabilitiesReady(capabilities) {
 
     (async() => {
       console.log("Cargando modelo...");
-      //modelo = await tf.loadGraphModel("model.json");
       modelo = await tf.loadLayersModel("https://deiverfabian777.github.io/Papacriollak.github.io/model.json");
       console.log("Modelo cargado");
     })();
